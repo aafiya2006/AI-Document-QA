@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer
 
 import google.generativeai as genai
 
-genai.configure(api_key="YOUR_API_KEY_HERE")
+genai.configure(api_key="AQ.Ab8RN6LhG1JggJXRNsWooSkiI9w2ZyhYadrZaxYT8JlyNqvg1w")
 
 model_gemini = genai.GenerativeModel("gemini-2.5-flash")
 
